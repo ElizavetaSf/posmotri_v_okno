@@ -133,10 +133,11 @@ ol {
 
 .search-form__checkbox-list .search-form__label:hover,
 .button:hover,
-.content__video-card-description-container:hover {
+.content__video-card:hover {
 	text-decoration: underline;
 	text-decoration-thickness: 1px;
 	text-underline-offset: 2px;
+	color:rgb(255, 255, 255);
 }
 
 .search-form__label:not(:last-of-type) {
@@ -213,7 +214,7 @@ ol {
 .content__list {
 	position: relative;
 	block-size: 298px;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 
 .content__list-item:not(:last-of-type) {
